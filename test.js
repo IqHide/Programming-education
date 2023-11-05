@@ -1,2 +1,2 @@
-console.log('Hello Misha! 1123');
+console.log('Hello Misha! 66666');
 console.log('Viktor the best!');
