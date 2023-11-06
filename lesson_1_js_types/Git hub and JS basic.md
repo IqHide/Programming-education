@@ -53,10 +53,35 @@ https://www.udemy.com/course/git-alishev/learn/lecture/12782415?start=0#overview
 
 *Task for text lesson*: 
 
+### Минимум 
+
+1. https://learn.javascript.ru/types
+2. https://learn.javascript.ru/type-conversions
+3. https://learn.javascript.ru/number
+4. https://learn.javascript.ru/string
+5. https://learn.javascript.ru/object
+
+### Желательно
+
+1. https://learn.javascript.ru/operators
+2. https://learn.javascript.ru/comparison
+3. https://learn.javascript.ru/ifelse
+
+## Максимум
+
+1. https://learn.javascript.ru/alert-prompt-confirm
+2. https://learn.javascript.ru/logical-operators
 
 
+## Дополнительно
 
+Ко всем этим статьям сделать задания в конце статьи. 
 
+Формат структуры папок: 
 
+lesson_{lesson number} > dir{article name} > file{article name_task number}.js
 
+Формат коммитов:
+{date} {dir} exercise: {article name}
 
+Делать коммит по завершению каждой статьи с заданиями. 
