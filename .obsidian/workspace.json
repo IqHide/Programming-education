@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "ae9077a7928a2cca",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e773a975c68760c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "835d57f1e2a70f8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lesson_1_js_types/types/JS types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cf46a4d862f2d78",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "lesson_1_js_types/types/Pasted image 20231113160248.png"
+              }
+            }
+          },
+          {
+            "id": "817418d425f43b28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lesson_1_js_types/Git hub and JS basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f31cade82a35d75",
+    "type": "split",
+    "children": [
+      {
+        "id": "3423fbe06c4261a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16c8cd552b6f3a8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9def22a9cc5a74a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f0a8136c228d98a5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "66333a4033e6485f",
+    "type": "split",
+    "children": [
+      {
+        "id": "053e8ab143ba6d44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59600d966ed261ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "lesson_1_js_types/Git hub and JS basic.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9758b34cbd4f7dfc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "lesson_1_js_types/Git hub and JS basic.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "630ce9b62ee3bbe4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "99cdb5ff4d99631d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "lesson_1_js_types/Git hub and JS basic.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "817418d425f43b28",
+  "lastOpenFiles": [
+    "lesson_1_js_types/types/JS_types_1.js",
+    "lesson_1_js_types/types/JS_types_1",
+    "lesson_1_js_types/types/JS types.md",
+    "lesson_1_js_types/Git hub and JS basic.md",
+    "lesson_1_js_types/types/Pasted image 20231113160248.png",
+    "lesson_1_js_types/types/Pasted image 20231113160306.png",
+    "lesson_1_js_types/types",
+    "lesson_1_js_types/types/Pasted image 20231113160753.png",
+    "lesson_1_js_types/types/Pasted image 20231113160736.png",
+    "lesson_1_js_types/types/Pasted image 20231113160640.png",
+    "lesson_1_js_types/types/Pasted image 20231113160520.png",
+    "lesson_1_js_types/types/Pasted image 20231113160433.png",
+    "lesson_2_js_"
+  ]
+}
