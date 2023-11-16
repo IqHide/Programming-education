@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lesson_1_js_types/types/JS types.md",
+                "file": "lesson_1_js_types/Git hub and JS basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +168,21 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "817418d425f43b28",
+  "active": "835d57f1e2a70f8d",
   "lastOpenFiles": [
+    "lesson_1_js_types/type_conversions/Type conversions.md",
+    "lesson_1_js_types/Git hub and JS basic.md",
+    "lesson_1_js_types/number/index.html",
+    "lesson_1_js_types/number/Number.md",
+    "lesson_1_js_types/types/JS types.md",
+    "lesson_1_js_types/types/Pasted image 20231113160248.png",
+    "lesson_1_js_types/number/number_1.js",
+    "lesson_1_js_types/number/number_",
+    "lesson_1_js_types/number",
+    "lesson_1_js_types/type_conversions/Pasted image 20231113165900.png",
+    "lesson_1_js_types/type_conversions",
     "lesson_1_js_types/types/JS_types_1.js",
     "lesson_1_js_types/types/JS_types_1",
-    "lesson_1_js_types/types/JS types.md",
-    "lesson_1_js_types/Git hub and JS basic.md",
-    "lesson_1_js_types/types/Pasted image 20231113160248.png",
     "lesson_1_js_types/types/Pasted image 20231113160306.png",
     "lesson_1_js_types/types",
     "lesson_1_js_types/types/Pasted image 20231113160753.png",
