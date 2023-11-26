@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "f3c11d4a47a904b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "44aeacce806048ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c83dd2d509b5afb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Базовая работа с GIT/Базовая и основная работа с GIT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f57fea4661228bf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0b39d67b23cae0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee7646b71c5b9833",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b322ef76f6c6479f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "759616147b6160d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "982c7cf866a3056f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e65f0016cab1675",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80cab413ff9bbe1a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Базовая работа с GIT/Базовая и основная работа с GIT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e9d54054ffe8800",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Базовая работа с GIT/Базовая и основная работа с GIT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e4d59b5b6de83cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "42fa76339ba20473",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Базовая работа с GIT/Базовая и основная работа с GIT.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "c83dd2d509b5afb1",
+  "lastOpenFiles": [
+    "2023-11-17.md",
+    "Базовая работа с GIT/Базовая и основная работа с GIT.md",
+    "Без названия.md",
+    "Без названия",
+    "Ветвление/Branching.md",
+    "Продвинутые темы/git rebase.md",
+    "Продвинутые темы",
+    "Новая папка",
+    "Базовая работа с GIT",
+    "Branching.md",
+    "Ветвление/Базовая работа с GIT/Базовая и основная работа с GIT.md",
+    "Ветвление/Базовая работа с GIT",
+    "Материалы/GitRemoteBranch.pdf",
+    "Материалы/GitPullvsFetch.pdf",
+    "Материалы/GitMergeConflicts.pdf",
+    "Материалы/GitBranching1.pdf",
+    "Материалы/Pasted image 20231101171911.png",
+    "Материалы/Pasted image 20231031204306.png",
+    "Материалы/Pasted image 20231101172008.png",
+    "Материалы/Pasted image 20231101172301.png",
+    "Материалы/Pasted image 20231101172036.png",
+    "Материалы/Pasted image 20231101172014.png",
+    "Материалы/Pasted image 20231101172010.png",
+    "Материалы/Pasted image 20231101171924.png",
+    "Материалы/Pasted image 20231031204242.png",
+    "Материалы/Pasted image 20231031204232.png",
+    "Материалы/GitReset.pdf"
+  ]
+}
