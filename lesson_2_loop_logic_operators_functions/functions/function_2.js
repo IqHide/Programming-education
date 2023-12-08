@@ -18,5 +18,9 @@
 // Используя оператор ||
 let age = prompt('')
 function checkAge(age) {
-	age = age >= 18 || confirm('Родители разрешили?')
+	// age >= 18 || confirm('Родители разрешили?')
+	// return age
+	age >= 18 ? age : confirm('Родители разрешили?')
+	return age
 }
+alert(checkAge(Number(age)))
