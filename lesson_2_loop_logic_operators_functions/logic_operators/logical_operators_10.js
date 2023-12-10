@@ -14,8 +14,7 @@
 // Подсказка: передача пустого ввода в приглашение prompt возвращает пустую строку ''. Нажатие клавиши Esc во время запроса возвращает null.
 let login = prompt('Назовись, юзер.', '')
 let password
-if (login === null || login === '') {
-	//(login === (false || null || '')) почему этот вариант не работает и почему три равно, а не два?
+if (login == (!true || null)) {
 	alert('Отменено')
 } else if (login !== 'Админ') {
 	alert('Я вас не знаю')
@@ -23,7 +22,7 @@ if (login === null || login === '') {
 	password = prompt('Введите пароль', '')
 	if (password == 'Я главный') {
 		alert('Здравствуйте!')
-	} else if (password === null || password === '') {
+	} else if (password == null || '') {
 		alert('Отменено')
 	} else {
 		alert('Неверный пароль')
