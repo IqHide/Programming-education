@@ -33,7 +33,7 @@
 
 ###  Function
 
-1. Function expression and function declaration;
+1. Function expression and function declaration? +
 
  
 ## *Main topic*: 

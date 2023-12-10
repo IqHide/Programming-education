@@ -7,11 +7,11 @@
 // truncate("Вот, что мне хотелось бы сказать на эту тему:", 20) = "Вот, что мне хотело…"
 
 // truncate("Всем привет!", 20) = "Всем привет!"
-let i = prompt('dlinna stroki', '')
-let str = prompt('stroka', '')
+let i = prompt('dlinna stroki', '');
+let str = prompt('stroka', '');
 function truncate(str, i) {
-	result = str.slice(0, Number(i)) + '...'
-	return result
+	result = str.slice(0, Number(i)) + '...';
+	return result;
 }
 
-alert(truncate(str, i))
+alert(truncate(str, i));

@@ -8,14 +8,9 @@
 // min(2, 5) == 2
 // min(3, -1) == -1
 // min(1, 1) == 1
-let a = prompt('a', '')
-let b = prompt('b', '')
+let a = prompt('a', '');
+let b = prompt('b', '');
 function min(a, b) {
-	return a < b ? Number(a) : Number(b)
-	// if (Number(a) < Number(b)) {
-	// 	return a
-	// } else {
-	// 	return b
-	// }
+	return Math.min(a, b);
 }
-alert(min(a, b))
+alert(min(a, b));

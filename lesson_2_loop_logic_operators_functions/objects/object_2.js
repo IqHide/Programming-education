@@ -25,14 +25,14 @@
 // isEmpty(obj)
 // alert(Boolean(isEmpty(obj)))
 
-let obj = {}
-obj.name = 'Misha'
+let obj = {};
+obj.name = 'Misha';
 function isEmpty(obj) {
 	for (result in obj) {
-		return false
+		return false;
 	}
-	return true
+	return true;
 }
-alert(isEmpty(obj))
-delete obj.name
-alert(isEmpty(obj))
+alert(isEmpty(obj));
+delete obj.name;
+alert(isEmpty(obj));
