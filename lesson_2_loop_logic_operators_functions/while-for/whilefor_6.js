@@ -5,11 +5,11 @@
 
 // Предполагается, что посетитель вводит только числа. Предусматривать обработку нечисловых строк в этой задаче необязательно.
 
-let chislo
-while (chislo < 100 || chislo == undefined) {
-	chislo = prompt('Chislo', '')
-	if (chislo > 100 || chislo === null) break
-}
+// let chislo
+// while (chislo < 100 || chislo == undefined) {
+// 	chislo = prompt('Chislo', '')
+// 	if (chislo > 100 || chislo === null) break
+// }
 
 // let num
 
@@ -17,3 +17,11 @@ while (chislo < 100 || chislo == undefined) {
 // 	num = prompt('Введите число больше 100?', 0)
 // } while (num <= 100 && num)
 // можно было так
+
+while (true) {
+	const number = prompt('Number', '');
+
+	if (number > 100 || number === null) {
+		break;
+	}
+}

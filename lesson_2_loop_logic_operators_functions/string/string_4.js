@@ -5,8 +5,8 @@
 
 // Например:
 // alert( extractCurrencyValue('$120') === 120 ); // true
-let str = prompt('znak+chislo', '')
+let str = prompt('sign + number', '');
 function extractCurrencyValue(str) {
-	return +str.slice(1)
+	return Number(str.slice(1));
 }
-alert(extractCurrencyValue(str))
+alert(extractCurrencyValue(str));

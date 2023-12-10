@@ -6,10 +6,10 @@
 // checkSpam('buy ViAgRA now') == true
 // checkSpam('free xxxxx') == true
 // checkSpam("innocent rabbit") == false
-let str
+let str;
 function checkSpam(str) {
-	let lowerStr = str.toLowerCase()
+	let lowerStr = str.toLowerCase();
 
-	return lowerStr.includes('viagra') || lowerStr.includes('xxx')
+	return lowerStr.includes('viagra') || lowerStr.includes('xxx');
 }
-alert(checkSpam(prompt('')))
+alert(checkSpam(prompt('')));
