@@ -9,24 +9,14 @@
 //     bool: obj1 === obj2
 // });
 
-const user = {
-    name: 'Viktor', 
-    surname: 'Palchynskyi',
-    age: 26,
-    nation: 'Russian',
-    sayMyAge: function () {
+function User(name, surname, age, nation) {
+    this.name = name;
+    this.surname = surname;
+    this.age = age;
+    this.naiton = nation;
+    this.sayMyAge = function() {
         return `My age is ${this.age}`
-    },
-    sayMyNation: () => {
-        return this.nation;
     }
-};
-
-const user2 = {
-    name: 'Misha',
-    surname: 'Pertrenko',
-    age: 26,
-    nation: 'Khohol',
 }
 
 function sayMyName() {
@@ -35,10 +25,10 @@ function sayMyName() {
     return `My name is ${getName()} ${this.surname}`;
 };
 
+const user = new User('Viktor', 'Palchynskyi', 26, 'Russian');
+const user2 = new User('Misha', 'Petrenko', 26, 'Russian');
+
 user.sayName = sayMyName;
 user2.sayName = sayMyName;
 
-console.log(user.sayName());
-console.log(user2.sayName());
-console.log(user.sayMyAge());
-console.log(user.sayMyNation());
+console.log(user?.sayMyAge());
