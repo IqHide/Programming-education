@@ -10,6 +10,8 @@
 // });
 
 function User(name, surname, age, nation) {
+    this = {};
+
     this.name = name;
     this.surname = surname;
     this.age = age;
@@ -17,7 +19,15 @@ function User(name, surname, age, nation) {
     this.sayMyAge = function() {
         return `My age is ${this.age}`
     }
+
+    return {};
 }
+
+const obj = { a: 22, obj: { b: 22 } };
+const obj2 = Object.assign({}, obj);
+obj2.obj.b = 10;
+
+obj2 && obj2.obj && obj2.obj.b;
 
 function sayMyName() {
     const getName = () => this.name;

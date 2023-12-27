@@ -9,6 +9,10 @@ const b = 12;
 
 // a > b ? getSome() : getAnother();
 
+function test(params) {
+    return this;
+}
+
 switch (10) {
     case 1:
         console.log(1);
