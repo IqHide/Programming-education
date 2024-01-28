@@ -1,21 +1,23 @@
-*References*: [[JS Lessons]]
-
----
-*Related*:  
-
----
-*Tags*: #js_lesson  
+_References_: [[JS Lessons]]
 
 ---
 
-## *Control questions for last lesson*: 
+_Related_:
+
+---
+
+_Tags_: #js_lesson
+
+---
+
+## _Control questions for last lesson_:
 
 ### Циклы
 
 1. Какие циклы есть +
 2. Структура цикла for +
-3.  Команды continue  +
-4.  Команда break +
+3. Команды continue +
+4. Команда break +
 
 ### Объекты
 
@@ -24,23 +26,21 @@
 3. Как получить доступ к свойству объекта? +
 4. Что такое оператор `in`? +
 
-
 ### Строки
 
-1. Каким способом можем объявить строку? + 
+1. Каким способом можем объявить строку? +
 2. Спецсимвол перевода на новую строку? +
 3. Как достать длину строки? +
 
-###  Function
+### Function
 
 1. Function expression and function declaration? +
 
- 
-## *Main topic*: 
+## _Main topic_:
 
-## *Control questions for today's lesson*: 
+## _Control questions for today's lesson_:
 
-## *Task for text lesson*: 
+## _Task for text lesson_:
 
 ### Min
 
@@ -61,7 +61,4 @@
 2. https://learn.javascript.ru/map-set
 3. https://learn.javascript.ru/keys-values-entries
 
-
-
-
-
+Метод sort?
