@@ -38,6 +38,12 @@
 
 ### Min
 
+udemy accaunt creds: 
+{
+    username: palchinskij19@gmail.com,
+    password: P7x!)a:;fbJnbd?
+}
+
 1. https://learn.javascript.ru/code-editors
 2. https://www.youtube.com/watch?v=zA6WNu_HGwY
 3. https://learn.javascript.ru/intro
