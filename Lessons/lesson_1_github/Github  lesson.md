@@ -52,8 +52,7 @@ udemy accaunt creds:
 5. https://learn.javascript.ru/structure 
 6. https://learn.javascript.ru/variables
 7. https://www.udemy.com/course/git-alishev/learn/lecture/12782415?start=0#overview
-8. https://learn.javascript.ru/types
-9. https://learn.javascript.ru/type-conversions
+
 
 ### 100%
 
@@ -63,6 +62,8 @@ udemy accaunt creds:
 4. https://learn.javascript.ru/number
 5. https://learn.javascript.ru/string
 6. https://learn.javascript.ru/object
+7. https://learn.javascript.ru/types
+8. https://learn.javascript.ru/type-conversions
 
 ### Max
 
