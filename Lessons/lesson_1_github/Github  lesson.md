@@ -36,7 +36,7 @@ udemy accaunt creds:
 7. https://learn.javascript.ru/code-editors
 
 
-### 100%
+### Opt
 
 1. https://learn.javascript.ru/types
 2. https://learn.javascript.ru/type-conversions
