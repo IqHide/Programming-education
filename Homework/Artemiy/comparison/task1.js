@@ -1,8 +1,8 @@
 //Каким будет результат этих выражений?
 5 > 4 // true
-'ананас' > 'яблоко'
-'2' > '12'
-undefined == null
-undefined === null
-null == '\n0\n'
-null === +'\n0\n'
+'ананас' > 'яблоко' // false
+'2' > '12' // false, так как приведется к number. Ошибся тут. Оказывается сравнение посимвольное, т.е true
+undefined == null // true
+undefined === null // false
+null == '\n0\n' // false, так как null равен только undefined
+null === +'\n0\n' // false
