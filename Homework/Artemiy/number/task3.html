@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			function readNumber() {
+				let statusCycle = true
+				while (statusCycle) {
+					let result = +prompt('Введите число')
+					if (result == null || result == '') {
+						statusCycle = false
+						return null
+					} else if (isFinite(result)) {
+						return result
+					}
+				}
+			}
+			alert(`Число: ${readNumber()}`)
+		</script>
+	</head>
+	<body></body>
+</html>
