@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			let n = +prompt('Введите n');
+			let x = +prompt('Введите x');
+
+			alert('Ваше значение = ' + pow(x, n));
+
+			function pow(x, n) {
+				if (checkCorrectParams(x, n)) {
+					return Math.pow(x, n);
+				}
+				return 'Были введены неверные значения';
+			}
+			function checkCorrectParams(x, n) {
+				return (x ?? n ?? true) && n % 1 == 0 && n >= 1;
+			}
+		</script>
+	</head>
+	<body></body>
+</html>
