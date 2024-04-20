@@ -27,3 +27,9 @@ else {
     console.log(0);
 }
 
+// task 4
+let result = (a + b < 4) ? "Мало" : "Много";
+//task 5
+let message = (login == 'Сотрудник') ? 'Привет' :
+    (login == 'Директор') ? 'Здравствуйте' :
+    (login == '') ? 'Нет логина' : '';
