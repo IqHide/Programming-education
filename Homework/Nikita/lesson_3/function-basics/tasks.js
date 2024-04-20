@@ -27,7 +27,7 @@ function pow(x, n) {
 
 function pow(x, n) {
     result = 1;
-    for (int i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
         result *= x;
     }
 
