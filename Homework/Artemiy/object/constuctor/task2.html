@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			function Calculator() {
+				this.read = function () {
+					let isValidInput = false;
+
+					while (!isValidInput) {
+						this.a = +prompt('Введите первое число');
+						this.b = +prompt('Введите второе число');
+
+						isValidInput = !isNaN(this.a) && !isNaN(this.b);
+					}
+				};
+				this.sum = function () {
+					return this.a + this.b;
+				};
+				this.mul = function () {
+					return this.a * this.b;
+				};
+			}
+
+			let calculator = new Calculator();
+
+			calculator.read();
+			alert(calculator.sum());
+			alert(calculator.mul());
+		</script>
+	</head>
+	<body></body>
+</html>
