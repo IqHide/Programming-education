@@ -9,7 +9,7 @@ const obj = {
 const obj2 = {
   ad: obj,
   vc: 10,
-  jj: 9,
+  jj: 9, 
   fucn1() {
     return this.vc + this.jj;
   },
