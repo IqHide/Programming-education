@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "b0aa747f0df0a6ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "64304e73a850e432",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8e407bdfee3a1e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lessons/lesson_4_objects/Object, Array, Map, Set.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6a94ee348216b6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a2aabdfbbe0d939",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08f43101f140a322",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7675a77ba3e9a0f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "502e976fe022b177",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5c72a909581d1e88",
+    "type": "split",
+    "children": [
+      {
+        "id": "9669b20a20ec8358",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ee0ec7b4ede7685",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lessons/lesson_4_objects/Object, Array, Map, Set.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfc56575c59802fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lessons/lesson_4_objects/Object, Array, Map, Set.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "87babd625f1938d7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80cd23636f2bd80d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lessons/lesson_4_objects/Object, Array, Map, Set.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "d8e407bdfee3a1e1",
+  "lastOpenFiles": [
+    "Lessons/lesson_4_objects/Functions, conditional, loops control.md",
+    "Lessons/lesson_4_objects/Object, Array, Map, Set.md",
+    "README.md",
+    "Lessons/lesson_3_operators_functions_objects/JS types control.md",
+    "Lessons/lesson_3_operators_functions_objects/Условные конструкции, функции, циклы.md",
+    "Lessons/lesson_2_js_types/Github  lesson control.md",
+    "Lessons/lesson_1_github/Github  lesson.md"
+  ]
+}
