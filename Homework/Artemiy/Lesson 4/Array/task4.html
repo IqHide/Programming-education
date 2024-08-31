@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			function someInput() {
+				let arr = [];
+				let bool = true;
+				let sum = 0;
+				while (true) {
+					let someNum = prompt('Введите число?');
+					if (!isFinite(someNum) || someNum === '' || someNum === null) break;
+					arr.push(+someNum);
+					sum += +someNum;
+				}
+				return sum;
+			}
+
+			alert(someInput());
+		</script>
+	</head>
+	<body></body>
+</html>
