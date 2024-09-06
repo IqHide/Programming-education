@@ -1,14 +1,16 @@
-https://learn.javascript.ru/task/function-in-if
-Посмотрите на код. Какой будет результат у вызова на последней строке?
+// https://learn.javascript.ru/task/function-in-if
+// Посмотрите на код. Какой будет результат у вызова на последней строке?
 
-let phrase = "Hello";
+// Обратите внимание: результат зависит от режима выполнения кода. Здесь используется строгий режим "use strict".
+
+let phrase = 'Hello';
 
 if (true) {
-  let user = "John";
+	let user = 'John';
 
-  function sayHi() {
-    alert(`${phrase}, ${user}`);
-  }
+	function sayHi() {
+		alert(`${phrase}, ${user}`);
+	}
 }
 
-sayHi(); // error, function into blok if.
+sayHi(); // error
