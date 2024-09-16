@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			let currentUserRole = prompt('Ваша роль, Сударь?')
+
+			if (!currentUserRole) {
+				alert('Отменено')
+			} else if (currentUserRole !== 'Админ') {
+				alert('Я вас не знаю')
+			} else {
+				let password = prompt('Введите пароль')
+
+				if (!password) {
+					alert('Отменено')
+				} else if (password !== 'Я Главный') {
+					alert('Неверный пароль')
+				} else {
+					alert('Здравствуйте!')
+				}
+			}
+		</script>
+	</head>
+	<body></body>
+</html>

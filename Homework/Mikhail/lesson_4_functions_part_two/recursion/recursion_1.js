@@ -17,29 +17,26 @@
 // Пример работы вашей функции:
 
 // function sumTo(n) {
-//   let result = 0;
+// 	if (n == 1) {
+// 		return n;
+// 	} else {
+// 		return n + sumTo(n - 1);
+// 	}
+// } //recursion
 
-//   for (let i = n; i > 0; i--) {
-//     result += i;
-//   }
-
-//   return result;
-// }
 // function sumTo(n) {
-//   if (n === 0) {
-//     return n;
-//   } else {
-//     return (n += sumTo(n - 1));
-//   }
-// }
+// 	let result = 0;
+// 	for (let i = 0; i <= n; i++) {
+// 		result += i;
+// 	}
+// 	return result;
+// } // loop
 
-function sumTo(n) {
-	return (n * (n + 1)) / 2;
-}
+// function sumTo(n) {
+// 	return ((1 + n) / 2) * n;
+// } // formula arif prog
 
 alert(sumTo(100)); // 5050
+// P.S. Какой вариант решения самый быстрый? Самый медленный? Почему? fastest formula, slowest recursion
 
-// P.S. Какой вариант решения самый быстрый? Самый медленный? Почему?
-// Подоздреваю, что самый быстрый через цикл, самый медленный через рекурсию.
-// P.P.S. Можно ли при помощи рекурсии посчитать sumTo(100000)?
-// сомневаюсь, что даст создать столько контекстов. Ставлю на нет.
+// P.P.S. Можно ли при помощи рекурсии посчитать sumTo(100000)? no, perepolnitsya stack

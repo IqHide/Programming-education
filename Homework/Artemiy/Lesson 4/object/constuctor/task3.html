@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			function Accumulator(startingValue) {
+				this.value = startingValue;
+				this.read = function () {
+					let num;
+					do {
+						num = +prompt('Введите число');
+						if (isNaN(num)) {
+							alert('Вы ввели некорректное число');
+						}
+					} while (isNaN(num));
+					this.value += num;
+				};
+			}
+			let accumulator = new Accumulator(1); // начальное значение 1
+
+			accumulator.read(); // прибавляет введённое пользователем значение к текущему значению
+			accumulator.read(); // прибавляет введённое пользователем значение к текущему значению
+
+			alert(accumulator.value); // выведет сумму этих значений
+		</script>
+	</head>
+	<body></body>
+</html>
