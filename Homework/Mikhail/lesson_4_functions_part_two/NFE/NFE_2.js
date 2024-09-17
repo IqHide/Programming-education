@@ -7,17 +7,18 @@ sum(5)(-1)(2) == 6;
 sum(6)(-1)(-2)(-3) == 0;
 sum(0)(1)(2)(3)(4)(5) == 15;
 // P.S. Подсказка: возможно вам стоит сделать особый метод преобразования в примитив для функции.
+
 function sum(a) {
 	let currentSum = a;
 
-	function nextSum(b) {
+	function f(b) {
 		currentSum += b;
-		return nextSum;
+		return f;
 	}
 
-	nextSum.valueOf = function () {
+	f.toString = function () {
 		return currentSum;
 	};
 
-	return nextSum;
+	return f;
 }

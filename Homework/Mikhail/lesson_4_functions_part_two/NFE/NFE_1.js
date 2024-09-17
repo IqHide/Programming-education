@@ -7,25 +7,18 @@
 // Посмотрите код из песочницы с полным примером использования.
 
 // P.S. Для того, чтобы сохранить текущее значение счётчика, можно воспользоваться как замыканием, так и свойством функции. Или сделать два варианта решения: и так, и так.
+
 function makeCounter() {
 	let count = 0;
 
+	// ... ваш код ...
 	function counter() {
-		return count;
+		return count++;
 	}
-
-	counter.set = function (value) {
-		count = value;
-	};
-
-	counter.decrease = function () {
-		count--;
-	};
-
+	counter.set = value => (count = value);
+	counter.decrease = () => (count -= 1);
 	return counter;
 }
-
-// ... ваш код ...
 
 let counter = makeCounter();
 

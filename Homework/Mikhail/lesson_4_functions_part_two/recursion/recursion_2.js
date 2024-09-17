@@ -1,4 +1,5 @@
 // https://learn.javascript.ru/task/output-single-linked-list
+
 // Допустим, у нас есть односвязный список (как описано в главе Рекурсия и стек):
 
 let list = {
@@ -18,22 +19,19 @@ let list = {
 
 // Сделайте два варианта решения: используя цикл и через рекурсию.
 
+// Как лучше: с рекурсией или без?
 // function printList(list) {
 // 	alert(list.value);
-// 	if (list.next != null) {
-// 		return printList(list.next);
-// 	} else {
-// 		return alert('End of list');
-// 	}
+// 	if (list.next) printList(list.next);
 // }
-// printList(list);
 
 function printList(list) {
 	let tmp = list;
-	while (tmp.next != 0) {
+
+	while (tmp) {
 		alert(tmp.value);
 		tmp = tmp.next;
 	}
 }
+
 printList(list);
-// Как лучше: с рекурсией или без?
