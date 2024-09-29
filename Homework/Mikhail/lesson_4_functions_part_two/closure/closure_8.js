@@ -9,17 +9,21 @@
 
 // arr.filter(inBetween(3,6)) – выбирает только значения между 3 и 6 (включительно).
 // arr.filter(inArray([1,2,3])) – выбирает только элементы, совпадающие с одним из элементов массива
-function inBetween(a, b) {
-	return function (item) {
-		return a <= item && item <= b;
-	};
-}
-function inArray(arr) {
-	return function (item) {
-		return arr.includes(item);
-	};
-}
+// Например:
+
 /* .. ваш код для inBetween и inArray */
+function inBetween(a, b) {
+	return function (x) {
+		return x >= a && x <= b;
+	};
+}
+
+function inArray(arr) {
+	return function (range) {
+		return arr.includes(range);
+	};
+}
+
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
 alert(arr.filter(inBetween(3, 6))); // 3,4,5,6
