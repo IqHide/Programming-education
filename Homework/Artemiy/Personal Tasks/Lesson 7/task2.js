@@ -5,11 +5,14 @@ let car = {
 	},
 };
 
-let electricCar = Object.create(car, {
+/*let electricCar = Object.create(car, {
 	batteryLevel: {
 		value: 80,
 	},
-});
+});*/
+
+let electricCar = Object.create(car);
+electricCar.batteryLevel = 80;
 
 console.log(electricCar.brand);
 electricCar.startEngine();

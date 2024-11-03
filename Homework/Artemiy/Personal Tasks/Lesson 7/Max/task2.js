@@ -28,3 +28,5 @@ let world = new World();
 extendObject(world, methods);
 
 world.russia.stop();
+
+//Мне кажется я не понял задание
