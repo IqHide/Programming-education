@@ -18,6 +18,9 @@ class Dog extends Animal {
 			this._breed = newBreed;
 		}
 	}
+	displayInfo() {
+		console.log(super._getInfo());
+	}
 }
 
 let dog = new Dog('Tobi', 'Ovcharka');
@@ -28,5 +31,6 @@ console.log(dog._breed);
 
 dog.breed = 'NEOvcharka';
 console.log(dog.breed);
+dog.displayInfo();
 
 //В консоль сначала выводяться два сообщения из task1.js при импорте
